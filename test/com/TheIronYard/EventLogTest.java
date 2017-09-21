@@ -2,11 +2,19 @@ package com.TheIronYard;
 
 import org.junit.After;
 import org.junit.Before;
+import org.junit.Rule;
 import org.junit.Test;
+import org.junit.rules.ExpectedException;
+
+import java.util.List;
 
 import static org.junit.Assert.*;
 
 public class EventLogTest {
+
+    @Rule //Another annotation directed to JUnit
+    public ExpectedException expected = ExpectedException.none();
+
     @Before
     public void setUp() throws Exception {
     }
@@ -16,7 +24,10 @@ public class EventLogTest {
     }
 
     @Test
-    public void addEvent() throws Exception {
+    public void addEvent() throws IllegalArgumentException {
+
+        expected.expect(IllegalArgumentException.class);
+
 
 
 //        Throw an IllegalArgumentException if the event parameter is null or if either if the two variables of event are null.
@@ -28,11 +39,13 @@ public class EventLogTest {
 
         System.out.println("Testing add Event function");
 
-        Event eventOne = new Event("eventOne", "Instantiate");
-        Event eventTwo = new Event("eventTwo", "Instantiate");
 
-        assertTrue(EventLog.addEvent(eventList[0]);
-        assertTrue(EventLog.addEvent(eventTwo));
+        Event eventOne = new Event("eventOne", "Instantiate");
+        Event eventTwo = new Event("eventTwo", null);
+
+        assertTrue(EventLog.addEvent(eventOne));
+        assertFalse(EventLog.addEvent(eventTwo));
+
 
 
     }

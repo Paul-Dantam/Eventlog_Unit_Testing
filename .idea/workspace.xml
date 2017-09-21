@@ -2,10 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="751461de-e7e6-460a-ab80-5c99e7bd5d2c" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/EventLogTesting.iml" afterPath="$PROJECT_DIR$/EventLogTesting.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/TheIronYard/Event.java" afterPath="$PROJECT_DIR$/src/com/TheIronYard/Event.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/TheIronYard/EventLog.java" afterPath="$PROJECT_DIR$/src/com/TheIronYard/EventLog.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test/com/TheIronYard/EventLogTest.java" afterPath="$PROJECT_DIR$/test/com/TheIronYard/EventLogTest.java" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -48,18 +46,30 @@
       <file leaf-file-name="EventLog.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/TheIronYard/EventLog.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="59">
-              <caret line="12" column="34" lean-forward="true" selection-start-line="12" selection-start-column="34" selection-end-line="12" selection-end-column="34" />
+            <state relative-caret-position="310">
+              <caret line="24" column="21" lean-forward="true" selection-start-line="24" selection-start-column="21" selection-end-line="24" selection-end-column="21" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="EventLogTest.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="EventLogTest.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/test/com/TheIronYard/EventLogTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="343">
-              <caret line="33" column="48" lean-forward="false" selection-start-line="33" selection-start-column="48" selection-end-line="33" selection-end-column="48" />
+            <state relative-caret-position="160">
+              <caret line="27" column="0" lean-forward="false" selection-start-line="27" selection-start-column="0" selection-end-line="27" selection-end-column="0" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="IllegalArgumentException.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/com/TheIronYard/IllegalArgumentException.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="60">
+              <caret line="4" column="0" lean-forward="true" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -70,8 +80,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Class" />
         <option value="JUnit4 Test Class" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -88,6 +98,7 @@
       <list>
         <option value="$PROJECT_DIR$/src/com/TheIronYard/Event.java" />
         <option value="$PROJECT_DIR$/src/com/TheIronYard/EventLog.java" />
+        <option value="$PROJECT_DIR$/src/com/TheIronYard/IllegalArgumentException.java" />
         <option value="$PROJECT_DIR$/test/com/TheIronYard/EventLogTest.java" />
       </list>
     </option>
@@ -254,6 +265,27 @@
     <history-entry file="EventLogTest_addEvent - 2017.09.21 at 14h 10m 30s.xml">
       <configuration name="EventLogTest.addEvent" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="EventLogTest_addEvent - 2017.09.21 at 14h 48m 21s.xml">
+      <configuration name="EventLogTest.addEvent" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="EventLogTest_addEvent - 2017.09.21 at 15h 01m 09s.xml">
+      <configuration name="EventLogTest.addEvent" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="EventLogTest_addEvent - 2017.09.21 at 15h 02m 33s.xml">
+      <configuration name="EventLogTest.addEvent" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="EventLogTest_addEvent - 2017.09.21 at 15h 04m 09s.xml">
+      <configuration name="EventLogTest.addEvent" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="EventLogTest_addEvent - 2017.09.21 at 15h 05m 05s.xml">
+      <configuration name="EventLogTest.addEvent" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="EventLogTest_addEvent - 2017.09.21 at 15h 07m 21s.xml">
+      <configuration name="EventLogTest.addEvent" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="EventLogTest_addEvent - 2017.09.21 at 15h 08m 45s.xml">
+      <configuration name="EventLogTest.addEvent" configurationId="JUnit" />
+    </history-entry>
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1440" height="900" extended-state="6" />
@@ -295,14 +327,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/com/TheIronYard/Main.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="24" lean-forward="false" selection-start-line="0" selection-start-column="24" selection-end-line="0" selection-end-column="24" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/com/TheIronYard/Event.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="120">
@@ -319,18 +343,36 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/TheIronYard/EventLog.java">
+    <entry file="file://$PROJECT_DIR$/src/com/TheIronYard/Main.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="59">
-          <caret line="12" column="34" lean-forward="true" selection-start-line="12" selection-start-column="34" selection-end-line="12" selection-end-column="34" />
+        <state relative-caret-position="0">
+          <caret line="0" column="24" lean-forward="false" selection-start-line="0" selection-start-column="24" selection-end-line="0" selection-end-column="24" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/test/com/TheIronYard/EventLogTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="343">
-          <caret line="33" column="48" lean-forward="false" selection-start-line="33" selection-start-column="48" selection-end-line="33" selection-end-column="48" />
+        <state relative-caret-position="160">
+          <caret line="27" column="0" lean-forward="false" selection-start-line="27" selection-start-column="0" selection-end-line="27" selection-end-column="0" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/TheIronYard/EventLog.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="310">
+          <caret line="24" column="21" lean-forward="true" selection-start-line="24" selection-start-column="21" selection-end-line="24" selection-end-column="21" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/TheIronYard/IllegalArgumentException.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="4" column="0" lean-forward="true" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
           <folding />
         </state>
       </provider>

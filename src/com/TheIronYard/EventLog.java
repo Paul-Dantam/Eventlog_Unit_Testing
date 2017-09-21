@@ -10,24 +10,21 @@ public class EventLog {
 
 
 
-    private List<Event> eventList;
+    private static List<Event> eventList;
 
-    public static boolean addEvent(Event event){
-
-//        Throw an IllegalArgumentException if the event parameter is null or if either if the two variables of event are null.
-//
-//                If both parameters are set then print the event to the console and add it to the list.
-//
-//                The return value from the addEvent method should be true.
+    public static boolean addEvent(Event event) throws IllegalArgumentException{
 
 
+        if (event == null || event.getAction()==null || event.getName()==null){
+            throw new IllegalArgumentException();
+        } else {
+            System.out.println(event.getName());
+            eventList.add(event);
+        } return true;
 //        "Face2Face"
 //        "PhoneCall"
 //        "TextMessaging"
 //        "Unknown"
-
-        return false;
-
     }
 
     public int getNumEvents (){
