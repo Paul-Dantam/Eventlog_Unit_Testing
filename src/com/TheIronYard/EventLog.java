@@ -1,7 +1,5 @@
 package com.TheIronYard;
 
-import com.sun.istack.internal.NotNull;
-
 import java.util.ArrayList;
 import java.util.List;
 
@@ -13,15 +11,17 @@ public class EventLog {
 
         if (event == null) throw new IllegalArgumentException();
         if (event.getAction()==null || event.getName()==null) throw new IllegalArgumentException();
-        else {
+        if( event.getAction().equals("Face2Face") ||
+                event.getAction().equals("PhoneCall") ||
+                event.getAction().equals("TextMessaging") ||
+                event.getAction().equals("Unknown")
+                ){
             System.out.println("This event is "+event.getName());
             eventList.add(event);
-        } return true;
+            return true;
+        }
+        else throw new IllegalArgumentException();
 
-//        "Face2Face"
-//        "PhoneCall"
-//        "TextMessaging"
-//        "Unknown"
     }
 
     public int getNumEvents (){
