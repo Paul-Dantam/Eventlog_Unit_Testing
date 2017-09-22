@@ -1,4 +1,4 @@
 package com.TheIronYard;
 
-public class IllegalArgumentException extends Exception {
+public class IllegalArgumentException extends RuntimeException {
 }

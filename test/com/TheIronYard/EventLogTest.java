@@ -12,7 +12,7 @@ import static org.junit.Assert.*;
 
 public class EventLogTest {
 
-    @Rule //Another annotation directed to JUnit
+    @Rule
     public ExpectedException expected = ExpectedException.none();
 
     @Before
@@ -23,31 +23,26 @@ public class EventLogTest {
     public void tearDown() throws Exception {
     }
 
+    EventLog eventLog = new EventLog();
+
+
+    @Test
+    public void addNullEvent() {
+        System.out.println("Testing null event function");
+        Event nullEvent = null;
+        expected.expect(IllegalArgumentException.class);
+        assertTrue(eventLog.addEvent(nullEvent));
+    }
+
+    
+
+
     @Test
     public void addEvent() throws IllegalArgumentException {
-
         expected.expect(IllegalArgumentException.class);
-
-
-
-//        Throw an IllegalArgumentException if the event parameter is null or if either if the two variables of event are null.
-//
-//                If both parameters are set then print the event to the console and add it to the list.
-//
-//                The return value from the addEvent method should be true.
-
-
         System.out.println("Testing add Event function");
-
-
         Event eventOne = new Event("eventOne", "Instantiate");
-        Event eventTwo = new Event("eventTwo", null);
-
-        assertTrue(EventLog.addEvent(eventOne));
-        assertFalse(EventLog.addEvent(eventTwo));
-
-
-
+        assertTrue(eventLog.addEvent(eventOne));
     }
 
 }

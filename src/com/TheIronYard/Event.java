@@ -1,5 +1,7 @@
 package com.TheIronYard;
 
+import com.sun.istack.internal.NotNull;
+
 public class Event {
 
     private String name;
@@ -22,7 +24,7 @@ public class Event {
         this.action = action;
     }
 
-    public Event(String name, String action) {
+    public Event(@NotNull String name, @NotNull String action) throws IllegalArgumentException {
 
         this.name = name;
         this.action = action;
