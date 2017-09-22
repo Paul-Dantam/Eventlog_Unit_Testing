@@ -56,16 +56,23 @@ public class EventLogTest {
         expected.expect(IllegalArgumentException.class);
         System.out.println("Testing add Event function");
         Event eventOne = new Event("eventOne", "Instantiate");
+        assertFalse(eventLog.addEvent(eventOne)); //Test for action that doesn't meet requirements, but isn't null
+
+    }
+
+    @Test
+    public void addEventWithRequirements() throws IllegalArgumentException {
+        System.out.println("Testing add Event function");
         Event eventTwo = new Event("eventTwo", "Face2Face");
         Event eventThree = new Event("eventThree", "PhoneCall");
         Event eventFour = new Event("eventFour", "TextMessaging");
         Event eventFive = new Event("eventFive", "Unknown");
-        assertFalse(eventLog.addEvent(eventOne)); //Test for action that doesn't meet requirements, but isn't null
         assertTrue(eventLog.addEvent(eventTwo));
         assertTrue(eventLog.addEvent(eventThree));
         assertTrue(eventLog.addEvent(eventFour));
         assertTrue(eventLog.addEvent(eventFive));
     }
+
 
 
 

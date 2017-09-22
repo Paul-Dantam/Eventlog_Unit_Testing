@@ -2,8 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="751461de-e7e6-460a-ab80-5c99e7bd5d2c" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/TheIronYard/Event.java" afterPath="$PROJECT_DIR$/src/com/TheIronYard/Event.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/TheIronYard/EventLog.java" afterPath="$PROJECT_DIR$/src/com/TheIronYard/EventLog.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test/com/TheIronYard/EventLogTest.java" afterPath="$PROJECT_DIR$/test/com/TheIronYard/EventLogTest.java" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -45,11 +44,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="EventLog.java" pinned="false" current-in-tab="false">
+      <file leaf-file-name="EventLog.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/com/TheIronYard/EventLog.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="268">
-              <caret line="19" column="0" lean-forward="false" selection-start-line="19" selection-start-column="0" selection-end-line="19" selection-end-column="0" />
+            <state relative-caret-position="255">
+              <caret line="17" column="18" lean-forward="true" selection-start-line="17" selection-start-column="18" selection-end-line="17" selection-end-column="18" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -57,11 +56,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="EventLogTest.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="EventLogTest.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/test/com/TheIronYard/EventLogTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="28">
-              <caret line="47" column="0" lean-forward="false" selection-start-line="47" selection-start-column="0" selection-end-line="47" selection-end-column="0" />
+            <state relative-caret-position="214">
+              <caret line="64" column="0" lean-forward="false" selection-start-line="64" selection-start-column="0" selection-end-line="64" selection-end-column="0" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -366,17 +365,17 @@
     <history-entry file="EventLogTest - 2017.09.22 at 07h 38m 16s.xml">
       <configuration name="EventLogTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="EventLogTest_addNullEvent - 2017.09.21 at 20h 39m 28s.xml">
-      <configuration name="EventLogTest.addNullEvent" configurationId="JUnit" />
+    <history-entry file="EventLogTest - 2017.09.22 at 07h 46m 09s.xml">
+      <configuration name="EventLogTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="EventLogTest - 2017.09.22 at 07h 46m 15s.xml">
+      <configuration name="EventLogTest" configurationId="JUnit" />
     </history-entry>
     <history-entry file="EventLogTest_addNullEvent - 2017.09.21 at 20h 41m 56s.xml">
       <configuration name="EventLogTest.addNullEvent" configurationId="JUnit" />
     </history-entry>
     <history-entry file="EventLogTest_addNullEvent - 2017.09.22 at 07h 20m 17s.xml">
       <configuration name="EventLogTest.addNullEvent" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="EventLogTest_nullEventThrowsException - 2017.09.21 at 20h 38m 55s.xml">
-      <configuration name="EventLogTest.nullEventThrowsException" configurationId="JUnit" />
     </history-entry>
   </component>
   <component name="ToolWindowManager">
@@ -482,20 +481,20 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/TheIronYard/EventLog.java">
+    <entry file="file://$PROJECT_DIR$/test/com/TheIronYard/EventLogTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="268">
-          <caret line="19" column="0" lean-forward="false" selection-start-line="19" selection-start-column="0" selection-end-line="19" selection-end-column="0" />
+        <state relative-caret-position="214">
+          <caret line="64" column="0" lean-forward="false" selection-start-line="64" selection-start-column="0" selection-end-line="64" selection-end-column="0" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/test/com/TheIronYard/EventLogTest.java">
+    <entry file="file://$PROJECT_DIR$/src/com/TheIronYard/EventLog.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="28">
-          <caret line="47" column="0" lean-forward="false" selection-start-line="47" selection-start-column="0" selection-end-line="47" selection-end-column="0" />
+        <state relative-caret-position="255">
+          <caret line="17" column="18" lean-forward="true" selection-start-line="17" selection-start-column="18" selection-end-line="17" selection-end-column="18" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
