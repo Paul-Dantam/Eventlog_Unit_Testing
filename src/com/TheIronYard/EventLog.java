@@ -21,7 +21,6 @@ public class EventLog {
             return true;
         }
         else throw new IllegalArgumentException();
-
     }
 
     public int getNumEvents (){
@@ -29,11 +28,8 @@ public class EventLog {
     return eventList.size();
     }
 
-
     public EventLog (){
-
         this.eventList = new ArrayList<>();
-
     }
 
 

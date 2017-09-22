@@ -5,9 +5,6 @@ import org.junit.Before;
 import org.junit.Rule;
 import org.junit.Test;
 import org.junit.rules.ExpectedException;
-
-import java.util.List;
-
 import static org.junit.Assert.*;
 
 public class EventLogTest {
@@ -24,7 +21,6 @@ public class EventLogTest {
     }
 
     EventLog eventLog = new EventLog();
-
 
     @Test
     public void addNullEvent() {
@@ -50,14 +46,12 @@ public class EventLogTest {
        assertTrue(eventLog.addEvent(nullActionEvent));
     }
 
-
     @Test
     public void addEvent() throws IllegalArgumentException {
         expected.expect(IllegalArgumentException.class);
         System.out.println("Testing add Event function");
         Event eventOne = new Event("eventOne", "Instantiate");
         assertFalse(eventLog.addEvent(eventOne)); //Test for action that doesn't meet requirements, but isn't null
-
     }
 
     @Test
@@ -72,10 +66,4 @@ public class EventLogTest {
         assertTrue(eventLog.addEvent(eventFour));
         assertTrue(eventLog.addEvent(eventFive));
     }
-
-
-
-
-
-
 }
