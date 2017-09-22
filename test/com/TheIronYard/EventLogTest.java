@@ -34,12 +34,23 @@ public class EventLogTest {
         assertTrue(eventLog.addEvent(nullEvent));
     }
 
-    
+    @Test
+    public void addNullNameEvent() {
+        Event nullNameEvent = new Event(null, "action");
+        expected.expect(IllegalArgumentException.class);
+        assertTrue(eventLog.addEvent(nullNameEvent));
+    }
+
+    @Test
+    public void addNullActionEvent() {
+        Event nullActionEvent = new Event("name",null);
+        expected.expect(IllegalArgumentException.class);
+       assertTrue(eventLog.addEvent(nullActionEvent));
+    }
 
 
     @Test
     public void addEvent() throws IllegalArgumentException {
-        expected.expect(IllegalArgumentException.class);
         System.out.println("Testing add Event function");
         Event eventOne = new Event("eventOne", "Instantiate");
         assertTrue(eventLog.addEvent(eventOne));
